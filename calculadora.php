@@ -8,16 +8,17 @@
     </head>
     <body class="bg-light">
         <div class="container mt-5">
+        
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Primera Tarea</a>
+                    <a class="navbar-brand" href="index.php">Primera Tarea</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                         </li>
                         <li class="nav-item">
                         <a class="nav-link" href="calculadora.php">Calculadora</a>
@@ -33,8 +34,16 @@
                 </div>
             </nav>
 
-            <?php            
-                echo "<h1>Hola mundo</h1>";            
+            <?php
+                $primerOperando = 10;
+                $segundoOperando = 5;
+                echo "<h1>Hola mundo</h1>";
+                echo "<ul class='list-group'>";
+                echo "<li class='list-group-item'>La suma de $primerOperando y $segundoOperando es: " . ($primerOperando + $segundoOperando) . "</li>";
+                echo "<li class='list-group-item'>La resta de $primerOperando y $segundoOperando es: " . ($primerOperando - $segundoOperando) . "</li>";
+                echo "<li class='list-group-item'>La multiplicación de $primerOperando y $segundoOperando es: " . ($primerOperando * $segundoOperando) . "</li>";
+                echo "<li class='list-group-item'>La división de $primerOperando y $segundoOperando es: " . ($primerOperando / $segundoOperando) . "</li>";
+                echo "</ul>";
                 ?>
         </div>
         
