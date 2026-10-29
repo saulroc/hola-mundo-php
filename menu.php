@@ -13,7 +13,7 @@
                         <a class="nav-link" href="calculadora.php">Calculadora</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="#">Edad</a>
+                        <a class="nav-link" href="edad.php">Edad</a>
                         </li>
                         <li class="nav-item">
                         <a class="nav-link " href="#">Imprimir números</a>
