@@ -8,37 +8,16 @@
     </head>
     <body class="bg-light">
         <div class="container mt-5">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Primera Tarea</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="calculadora.php">Calculadora</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="#">Edad</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link " href="#">Imprimir números</a>
-                        </li>
-                    </ul>
-                    </div>
-                </div>
-            </nav>
+            <?php require 'menu.php';
+            ?>
 
             <?php            
                 echo "<h1>Hola mundo</h1>";            
                 ?>
+            
         </div>
         
         <!-- Bootstrap JS Bundle CDN -->
-        <script src="./js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZálesaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="./js/bootstrap.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZálesaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>
